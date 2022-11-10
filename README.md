@@ -12,3 +12,15 @@ Unpaid Reviews Table: </br>
 |Total Votes(total_votes)| Five Star Ratings(five_star_percentage) |Five Star Rating Percentage(five_star_percentage)|
 |------------------------| ----------------------------------------|-------------------------------------------------|
 | 403807                 | 242889                                  | 0.6014977452099641                              |
+
+Paid Reviews Table: </br>
+The table contains no data after the initial two-step ETL process. Following is the result from a query for selecting all data from paid_reviews_table:</br>
+|review_id|star_rating|helpful_votes|total_votes|vine|verified_purchase|
+|---------|----------|--------------|----------|-----|-----------------|
+
+## Summary
+The project design is transferrable and could be used to analyze any dataset compliant with the data structure. The specific dataset did not have surviving datapoint after ETL and so is relatively sound as far as credibility and reliability of results. About 60% of reviews in this book review were five star all coming from unpaid reviewers. It is reasonable to conclude that this book was a public favorite.
+An important enhancement in the analysis could be to consider the verified purchase data. This would be especially relevant to predict product demand for a reusable product like a book. Since the rating may not provide a reasonable idea of the sales/revenues.
+
+                    
+

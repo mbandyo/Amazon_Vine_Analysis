@@ -7,3 +7,8 @@ The steps followed in the ETL process are as follows:
 * Select the subset of data where the minimum number of votes was 20.
 * The percentage of helpful votes (helpful_votes/total_votes) was at least 50.
 The dataset chosen in this specific instance did not have any surviving paid review data after ETL was completed. While this makes the analysis simpler, it is also more credible since any bias could be ruled out.
+### Result
+Unpaid Reviews Table: </br>
+|Total Votes(total_votes)| Five Star Ratings(five_star_percentage) |Five Star Rating Percentage(five_star_percentage)|
+|------------------------| ----------------------------------------|-------------------------------------------------|
+| 403807                 | 242889                                  | 0.6014977452099641                              |
